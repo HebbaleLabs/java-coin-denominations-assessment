@@ -1,5 +1,7 @@
 package com.talfinder.assessment;
 
+import java.util.Arrays;
+
 /**
  * Created by hbhargav on 08/03/19.
  */
@@ -19,6 +21,8 @@ public class CoinChange {
     int[] coins = new int[]{1, 2, 5};
     int amount = 11;
     int numCoins = minCoins(coins, amount);
-    System.out.println("Number of coins required to make up the amount : " + numCoins);
+    System.out.println("Coins : " + Arrays.toString(coins));
+    System.out.println("Amount: "+ amount);
+    System.out.println("Number of coins required to make up the amount: " + numCoins);
   }
 }
